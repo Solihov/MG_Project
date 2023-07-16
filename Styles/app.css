@@ -55,12 +55,12 @@ ul li {
 }
 
 .headerBody_font {
-    width: 525px;
-    margin: 40px 0 0 150px;
+    width: 515px;
+    margin: 35px 0 0 150px;
 }
 
 .headerBody_font h1 {
-    font-size: 57px;
+    font-size: 58px;
     font-weight: 700;
 }
 
@@ -83,14 +83,15 @@ ul li {
     left: 150px;
     z-index: -1;
     width: 656px;
-    height: 670px;
+    height: 660px;
     border: 10px solid #4E52E6;
     border-radius: 45px;
     transform: rotate(162deg);
 }
+
 .headerMainImg {
-    width: 700px;
-    height: 430px;
+    width: 640px;
+    height: 395px;
 }
 .backFont {
     position: absolute;
@@ -99,9 +100,27 @@ ul li {
     font-family: 'Roboto', sans-serif;
     font-size: 90px;
     font-weight: 900;
-    top: -200;
+    top: 0;
     left: 180px;
-    z-index: 10;
+    z-index: -1;
     color: #C4C4C4;
     opacity: 12%;
+}
+/* BODY */
+.storyesSection {
+    width: 100%;
+
+}
+.storyBoxes {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rotatedSqrStatic {
+    position: static;
+    width: 300px;
+    height: 300px;
+    border-width: 7px;
 }
