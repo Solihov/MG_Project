@@ -98,29 +98,60 @@ ul li {
     width: 170px;
     height: 197px;
     font-family: 'Roboto', sans-serif;
-    font-size: 90px;
+    font-size: 95px;
     font-weight: 900;
     top: 0;
-    left: 180px;
+    left: 170px;
     z-index: -1;
     color: #C4C4C4;
     opacity: 12%;
+    line-height: 75px;
 }
 /* BODY */
 .storyesSection {
     width: 100%;
-
+    margin: 120px 0;
 }
 .storyBoxes {
     width: 70%;
-    margin: 0 auto;
+    margin: 70px 0 20px 120px;
     display: flex;
     justify-content: space-between;
     
 }
 .rotatedSqrStatic {
     position: static;
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
     border-width: 7px;
 }
+.st_container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.storyFont {
+    width: 300px;
+    padding-top: 50px;
+}
+.storyFont h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0 20px 0;
+}
+.storyFont p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #868686;
+}
+.storyFont button {
+    width: 160px;
+    height: 46px;
+    background: transparent;
+    border: 2px solid white;
+    color: #4E52E6;
+    margin: 50px 0;
+}
+/* .historyBtn {
+    background-color: white;
+    border: none;
+} */
