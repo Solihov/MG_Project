@@ -56,12 +56,14 @@ ul li {
 
 .headerBody_font {
     width: 515px;
-    margin: 35px 0 0 150px;
+    margin: 60px 0 0 150px;
 }
 
 .headerBody_font h1 {
-    font-size: 58px;
+    font-size: 65px;
     font-weight: 700;
+    line-height: 60px;
+    margin: 30px 0;
 }
 
 .headerBody_font p {
@@ -98,14 +100,14 @@ ul li {
     width: 170px;
     height: 197px;
     font-family: 'Roboto', sans-serif;
-    font-size: 95px;
+    font-size: 115px;
     font-weight: 900;
     top: 0;
     left: 170px;
     z-index: -1;
     color: #C4C4C4;
     opacity: 12%;
-    line-height: 75px;
+    line-height: 85px;
 }
 /* BODY */
 .storyesSection {
@@ -121,8 +123,8 @@ ul li {
 }
 .rotatedSqrStatic {
     position: static;
-    width: 330px;
-    height: 330px;
+    width: 370px;
+    height: 370px;
     border-width: 7px;
 }
 .st_container {
@@ -136,12 +138,15 @@ ul li {
 .storyFont h1 {
     font-size: 18px;
     font-weight: 600;
-    margin: 30px 0 20px 0;
+    margin: 30px 0 0 0;
 }
-.storyFont p {
+.storyDesc {
     font-size: 14px;
     font-weight: 400;
     color: #868686;
+    line-height: 30px;
+    width: 290px;
+    margin-top: 20px;
 }
 .storyFont button {
     width: 160px;
@@ -151,7 +156,22 @@ ul li {
     color: #4E52E6;
     margin: 50px 0;
 }
-/* .historyBtn {
+.storyFont button:hover {
     background-color: white;
     border: none;
-} */
+    transition: 0.5s;
+}
+.futureSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.futureSection h1 {
+    font-size: 72px;
+    font-weight: 700;
+    width: 400px;
+    height: 180px;
+    line-height: 60px;
+}
+.future
