@@ -174,4 +174,10 @@ ul li {
     height: 180px;
     line-height: 60px;
 }
-.future
+.futureImg {
+    position: relative;
+    
+}
+.rotateFuture {
+    position: absolute;
+}
