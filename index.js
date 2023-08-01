@@ -1,16 +1,10 @@
-let headerMainImg = document.querySelector('.headerMainImg')
-
-window.onload = () => {
-    headerMainImg.classList.add('visible')
-}
-
-var images = document.querySelectorAll('[hiddenElement]')
+let images = document.querySelectorAll('[hiddenElement]')
 console.log(images)
 window.addEventListener('scroll', () => {
-    for (var i = 0; i < images.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = images[i].getBoundingClientRect().top;
-        var elementVisible = 150;
+    for (let i = 0; i < images.length; i++) {
+        let windowHeight = window.innerHeight;
+        let elementTop = images[i].getBoundingClientRect().top;
+        let elementVisible = 150;
 
         if (elementTop < windowHeight - elementVisible) {
             images[i].classList.add("visible");
@@ -18,10 +12,10 @@ window.addEventListener('scroll', () => {
     }
 })
 
-for (var i = 0; i < images.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = images[i].getBoundingClientRect().top;
-    var elementVisible = 150;
+for (let i = 0; i < images.length; i++) {
+    let windowHeight = window.innerHeight;
+    let elementTop = images[i].getBoundingClientRect().top;
+    let elementVisible = 150;
 
     if (elementTop < windowHeight - elementVisible) {
         images[i].classList.add("visible");
@@ -29,7 +23,7 @@ for (var i = 0; i < images.length; i++) {
 }
 
 // li active
-var liClick = document.querySelectorAll('.headLi')
+let liClick = document.querySelectorAll('.headLi')
 liClick.forEach(element => {
     element.addEventListener('click', (e) => {
         disable()
@@ -42,4 +36,14 @@ const disable = () => {
         element.classList.remove('activeLi')
     });
 }
-
+let toggleBtn = document.querySelector('.telMenu')
+let navBar = document.querySelector('.head_nav')
+toggleBtn.addEventListener('click', () => {
+    if (toggleBtn.classList.contains('active')) {
+        toggleBtn.classList.remove('active')
+        navBar.classList.remove('active')
+    } else {
+        toggleBtn.classList.add('active')
+        navBar.classList.add('active')
+    }
+})
