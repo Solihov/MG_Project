@@ -38,6 +38,7 @@ const disable = () => {
 }
 let toggleBtn = document.querySelector('.telMenu')
 let navBar = document.querySelector('.head_nav')
+let ulMenu = document.querySelector('.menu_ul')
 toggleBtn.addEventListener('click', () => {
     if (toggleBtn.classList.contains('active')) {
         toggleBtn.classList.remove('active')
@@ -45,5 +46,6 @@ toggleBtn.addEventListener('click', () => {
     } else {
         toggleBtn.classList.add('active')
         navBar.classList.add('active')
+        ulMenu.classList.add('active')
     }
 })

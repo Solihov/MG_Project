@@ -1,7 +1,4 @@
 @media (max-width: 600px) {
-    /* body {
-        scroll-margin-bottom: hidden;
-    } */
     .head_nav {
         display: none;
     }
@@ -13,6 +10,10 @@
     }
     .head_nav.active {
         display: block;
+    }
+    .menu_ul.active {
+        width: 45%;
+        flex-direction: column;
     }
     .container {
         width: 93%;
